@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+
+<style>
+  
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background-color: #B5B8BE;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: 3px solid;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+</style>
+</head>
+<body>
+  
+
+<div class="header">
+  <h1>Frekas hastanesi</h1>
+  
+<p><a href="https://veritabani.ddev.site/" style="color:black;font-weight:bold;">Ana Sayfa</a>
+  <a href="https://veritabani.ddev.site/iletisim.html" style="color:black;font-weight:bold;">Iletesim</a>
+  <a href="https://veritabani.ddev.site/video.html" style="color:black;font-weight:bold;">Anlatim</a>	
+  <a href="https://veritabani.ddev.site/hakkinda.html" style="color:black;font-weight:bold;">Hakkinda</a></p>
+</div>
+<br>
+
+<img src="hastakayit.gif" style="width:auto;">
+
+
+</style>
+</head>
+<form class="center"action="iletisim_post.html" method="post" class="login ozellogin">
+    <p>
+        <br>
+    Name and Surename<input type="text" name="name" ><br>
+    Mail <input type="email" name="email" placeholder="name@gmail.com"><br>
+    Telefon numarası <input type="text" name="number" placeholder="0 532 000 000"><br>
+
+    
+
+</body>
+
+        <label>Hangi Hastalık</label>
+<select name="cinsiyet">
+<option value="Yürüme frekansı bozukluğu hastalığı" name="cinsiyet">Yürüme frekansı bozukluğu hastalığı</option>
+  <option value="Uzun süreli frekans bozukluğu hastalığı" name="cinsiyet">Uzun süreli frekans bozukluğu hastalığı</option>
+  <input type="submit" value="Send">
+        <input type="reset" value="Sıfırla">
+</select>
+
+
+        </P>
+ </form>
+ <div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li><a href="https://veritabani.ddev.site/" class="nav-link px-2 text-secondary">Hastenemiz</a></li>
+        </ul>
+    <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+  </footer>
+</div>
+</html>
