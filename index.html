@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background-color: #B5B8BE;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: 3px solid;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Frekas hastanesi</h1>
+  
+<p><a href="https://veritabani.ddev.site/" style="color:black;font-weight:bold;">Ana Sayfa</a>
+  <a href="https://veritabani.ddev.site/iletisim.html" style="color:black;font-weight:bold;">Iletesim</a>
+  <a href="https://veritabani.ddev.site/video.html" style="color:black;font-weight:bold;">Anlatim</a>	
+  <a href="https://veritabani.ddev.site/hakkinda.html" style="color:black;font-weight:bold;">Hakkinda</a></p>
+  <a href="https://veritabani.ddev.site/hastaneler.html" style="color:black;font-weight:bold;">Hastanmiz</a></p>
+</div>
+<br>
+
+
+  
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src=
+      "https://cdn.memorial.com.tr/files/Uploads/Edit%C3%B6r/ekgnedirnasilcekilirjpg_9130.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <p class="title">Frekans bozuklugu</p>
+        <p><a href="https://veritabani.ddev.site/iletisim.html"><button class="button">Iletisim</button></a><a href="https://veritabani.ddev.site/video.html"><button class="button">Hakkinda</button></a></p>
+      </div>
+    </div>
+    
+    
+  </div><div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://avicennaint.com/wp-content/uploads/2020/06/elektrofizyoloji-incelemeleri-eeg-ve-emg-nedir-e.webp"
+      alt="Jane" style="width:100%">
+      <div class="container">
+        <p class="title">Frekans bozuklugu</p>
+        <p><a href="https://veritabani.ddev.site/iletisim.html"><button class="button">Iletisim</button></a><a href="https://veritabani.ddev.site/video.html"><button class="button">Hakkinda</button></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
